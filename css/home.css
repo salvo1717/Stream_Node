@@ -1,0 +1,60 @@
+html{
+    background-color: lightblue;
+    height: 100%;
+    margin: 0;
+}
+body{
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    text-align: center;
+    font-size: 150%;
+    color: darkslategrey;
+}
+#container{
+    flex-grow: 1; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 200%;
+    color: black;
+}
+#links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color:rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px grey;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:darkslategrey;
+}
+#party{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#party button{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px grey;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#party button:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
